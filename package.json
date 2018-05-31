@@ -1,0 +1,42 @@
+{
+  "name": "Slacktunes",
+  "version": "1.0.0",
+  "description": "Send what you're playing on iTunes to Slack",
+  "main": "main.js",
+  "scripts": {
+    "test": "standard",
+    "start": "electron ./",
+    "build": "electron-packager ./ slacktunes --out build/ --platform=darwin --arch=x64 --version=1.2.6 --icon=./Icon.icns --overwrite --prune --app-version \"$(node -pe \"require('./package.json').version\")\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snipe/slacktunes.git"
+  },
+  "author": "Alison Gianotto",
+  "contributors": [{
+    "name": "Kazato Sugimoto",
+    "name": "Till Kothe"
+  }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snipe/slacktunes/issues"
+  },
+  "homepage": "https://github.com/snipe/slacktunes#readme",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "hipchatter": "^0.2.0",
+    "iconv": "^2.1.10",
+    "isomorphic-fetch": "^2.1.1",
+    "menubar": "^4.1.2",
+    "once": "^1.3.2",
+    "playback": "^0.2.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+	"electron": "2.0.2",
+    "electron-packager": "7.2.0",
+    "standard": "^7.1.2",
+    "electron-installer-windows": "^1.1.0"
+  }
+}

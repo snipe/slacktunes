@@ -1,0 +1,13 @@
+{
+  "name": "Slacktunes",
+  "dest": "dist/installers/",
+  "icon": "Icon.png",
+  "tags": [
+    "Entertainment"
+  ],
+  "options": [
+    {
+	    "noMsi": true
+	}
+  ]
+}
