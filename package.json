@@ -13,10 +13,11 @@
     "url": "git+https://github.com/snipe/slacktunes.git"
   },
   "author": "Alison Gianotto",
-  "contributors": [{
-    "name": "Kazato Sugimoto",
-    "name": "Till Kothe"
-  }],
+  "contributors": [
+    {
+      "name": "Till Kothe"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/snipe/slacktunes/issues"
@@ -34,9 +35,11 @@
     "react-dom": "^0.14.7"
   },
   "devDependencies": {
-	"electron": "2.0.2",
+    "electron": "2.0.2",
+    "electron-builder": "^20.15.1",
+    "electron-builder-squirrel-windows": "^20.15.0",
+    "electron-installer-windows": "^1.1.0",
     "electron-packager": "7.2.0",
-    "standard": "^7.1.2",
-    "electron-installer-windows": "^1.1.0"
+    "standard": "^7.1.2"
   }
 }
